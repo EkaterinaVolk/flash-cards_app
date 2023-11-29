@@ -1,7 +1,6 @@
-import '../App.css';
-import React from 'react'
+import './Card.scss';
 
-function CardFront(props) {
+function Card(props) {
     return (
         <div className="card">
             <img className="img" src={props.url} alt="cardImg"/>
@@ -17,4 +16,4 @@ function CardFront(props) {
   }
 
 
-export default CardFront;
+export default Card;
